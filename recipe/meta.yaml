@@ -1,5 +1,5 @@
 {% set name = "activitysim" %}
-{% set version = "1.0.4" %}
+{% set version = "1.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/activitysim-{{ version }}.tar.gz
-  sha256: 7b8f5b97c85bb0ebc61f6b381d4c27a3c73902417fb0fb01f3a3339404f44aaf
+  sha256: 85b1f6cb051206f23571eb1e161cce83e081079c2501173b9c554744eb54a1e8
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
   run:
     - cytoolz >=0.8.1
     - numba >=0.51.2
-    - numpy >=1.16.1
+    - numpy >=1.16.1,<=1.21
     - openmatrix >=0.3.4.1
     - orca >=1.6
     - pandas >=1.1.0
@@ -33,7 +33,8 @@ requirements:
     - python >=3.9
     - pyyaml >=5.1
     - requests >=2.7
-    - pytables >=3.5.1
+    - pytables >=3.5.1,<3.7
+    - simwrapper
 
 test:
   imports:

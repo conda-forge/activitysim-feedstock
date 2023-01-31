@@ -37,6 +37,7 @@ requirements:
     - simwrapper
     - pypyr
     - sharrow >=2.2.4
+    - scikit-learn >=1.1
     - xarray
 
 test:
@@ -58,5 +59,3 @@ about:
 extra:
   recipe-maintainers:
     - jpn--
-    - bstabler
-    - danielsclint

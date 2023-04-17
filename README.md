@@ -1,11 +1,11 @@
-About activitysim
-=================
+About activitysim-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/activitysim-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/activitysim/activitysim
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/activitysim-feedstock/blob/main/LICENSE.txt)
 
 Summary: Activity-Based Travel Modeling
 
@@ -143,7 +143,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bstabler](https://github.com/bstabler/)
-* [@danielsclint](https://github.com/danielsclint/)
 * [@jpn--](https://github.com/jpn--/)
 

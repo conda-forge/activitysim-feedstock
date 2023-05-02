@@ -1,5 +1,5 @@
 {% set name = "activitysim" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/activitysim-{{ version }}.tar.gz
-  sha256: 542153e39d745667de1ee50748e6d21ff56be5c18a8ed8ebe74282ea5d193bb2
+  sha256: 158a925b584244a198a5dbed90c334a8b253bcf4e5ed61c7ef45a3b8fc4d0dd3
 
 build:
   number: 0

@@ -11,7 +11,7 @@ source:
   sha256: 8a312d90f68494996c763522909751f7da6367d1ac720297bad8f087978801b6
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - activitysim=activitysim.cli.main:main

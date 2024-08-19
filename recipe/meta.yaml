@@ -24,17 +24,17 @@ requirements:
   run:
     - c-blosc2
     - cytoolz ~=0.12.0
-    - numba ~=0.56.0
+    - numba ~=0.57.0
     - numpy ~=1.23.0
     - openmatrix >=0.3.4.1
-    - orca >=1.6
     - pandas >=1.1.0,<2
     - psutil ~=5.9.0
     - pyarrow >=11.0
-    - python >=3.9
+    - pydantic >=2.6
+    - python >=3.10
     - pyyaml >=5.1
     - requests >=2.7
-    - pytables ~=3.8.0
+    - pytables ~=3.9
     - simwrapper
     - pypyr
     - sharrow >=2.2.4

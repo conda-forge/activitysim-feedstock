@@ -29,7 +29,7 @@ requirements:
     - openmatrix >=0.3.4.1
     - orca >=1.6
     - pandas >=1.1.0,<2
-    - pandera ~=0.18.0
+    - pandera >=0.15,<0.18.1
     - platformdirs
     - psutil ~=5.9.0
     - pyarrow >=11.0

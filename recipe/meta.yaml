@@ -21,6 +21,8 @@ requirements:
   host:
     - pip
     - python >=3.9
+    - setuptools
+    - setuptools-scm
   run:
     - c-blosc2
     - cytoolz ~=0.12.0

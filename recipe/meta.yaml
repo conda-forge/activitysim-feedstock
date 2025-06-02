@@ -1,6 +1,6 @@
 {% set name = "activitysim" %}
-{% set version = "1.3.4" %}
-
+{% set version = "1.4.0" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/activitysim-{{ version }}.tar.gz
-  sha256: 58b648c94cce41e5c3cfa9898e50baaf9a217a5f1bf0ef3c3233ad8b42d6023c
+  sha256: b568b23dc701b394670ac45d577c0d0df6e8717d353e83606e0449c5c6c75ef6
 
 build:
   number: 0
@@ -20,7 +20,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python {{ python_min }}
     - setuptools
     - setuptools-scm
   run:
@@ -32,13 +32,13 @@ requirements:
     - numpy ~=1.23.0
     - openmatrix >=0.3.4.1
     - orca >=1.6
-    - pandas >=1.4.0,<2
+    - pandas >=2.2
     - pandera >=0.15,<0.18.1
     - platformdirs
     - psutil ~=5.9.0
     - pyarrow >=11.0
     - pydantic >=2.6
-    - python >=3.10
+    - python >={{ python_min }}
     - pyyaml >=5.1
     - pypyr
     - pytables ~=3.9
@@ -46,7 +46,7 @@ requirements:
     - scikit-learn >=1.2
     - sharrow >=2.9.4
     - simwrapper
-    - xarray ~=2023.2
+    - xarray >=2024.05
 
 test:
   imports:
@@ -57,6 +57,7 @@ test:
     - activitysim --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/activitysim/activitysim

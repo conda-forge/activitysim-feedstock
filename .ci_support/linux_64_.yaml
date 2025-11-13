@@ -1,5 +1,5 @@
 c_blosc2:
-- '2.21'
+- '2.22'
 channel_sources:
 - conda-forge
 channel_targets:
